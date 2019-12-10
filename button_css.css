@@ -12,12 +12,14 @@ div.container{
   color: #333333;
   border: 1px solid black;
   text-align: center;
+  display: inline-block;
   text-decoration: none;
   font-size: 12px;
   font-weight: bold;
   outline-color: #ABABAB;
   height:35px;
   border-color: #ABABAB;
+  border-radius: 0;
 }
 
 .button span {
@@ -49,6 +51,7 @@ div.container{
 div.content{
 	height: 25px;
 }
+
 
 
 
