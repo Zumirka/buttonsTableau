@@ -2,10 +2,9 @@
   box-sizing: border-box;
 }
 body{
-	float: left;
-	width: 100%;
+	width: 99%;
 	background-color: #efefef;
-	position:relative;
+	position:absolute;
 }
 .button {
   background-color: white; 
@@ -20,7 +19,7 @@ body{
   outline-color: #ABABAB;
   width: 19.5%;
   display: inline-block;
-  height:49px;
+  height:40px;
   border-color: #ABABAB;
 }
 
@@ -52,7 +51,7 @@ body{
 }
 div.content{
 	padding: 2px 16px;
-	height: 50px;
+	height: 40px;
 }
 
 #ABABAB
