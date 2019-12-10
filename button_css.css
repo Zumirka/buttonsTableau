@@ -1,20 +1,21 @@
 
 body{
 	background-color: #efefef;
-	margin: auto;
+}
+div.container{
+	width: 100%;
+	margin:0;
+	padding:0;
 }
 .button {
   background-color: white; 
   color: #333333;
-  border: 2px solid black;
+  border: 1px solid black;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 12px;
   font-weight: bold;
   outline-color: #ABABAB;
-  width: 20%;
-  display: inline-block;
   height:35px;
   border-color: #ABABAB;
 }
@@ -46,7 +47,6 @@ body{
   right: 0;
 }
 div.content{
-
 	height: 25px;
 }
 

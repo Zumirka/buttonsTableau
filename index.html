@@ -1,5 +1,8 @@
 <html>
 	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="viewport" content="height=device-height, initial-scale=1.0">
 		
@@ -7,13 +10,15 @@
 		<link rel="stylesheet" type="text/css" href="button_css.css">
 	</head>
 	<body>
-		<div class="content" align='center'>
-			<button class="button" onclick="abTest()"><span>AB Test</span></button>
-			<button class="button" onclick="engagement()"><span>Engagement</span></button>
-			<button class="button" onclick="masterdash()"><span>Masterdash</span></button>
-			<button class="button" onclick="sales()"><span>Sales</span></button>
-			<button class="button" onclick="retention()"><span>Retention</span></button>
-		</div>
+	<div class="container">
+	  <div class="btn-group btn-group-justified">
+		<a onclick="abTest()" class="btn button"><span>AB Test</span></a>
+		<a onclick="engagement()" class="btn button">Engagement</a>
+		<a onclick="masterdash()" class="btn button">Masterdash</a>
+		<a onclick="sales()" class="btn button">Sales</a>
+		<a onclick="retention()" class="btn button">Retention</a>
+	  </div>
+	</div>
 		<script>
 		function abTest() {
 		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/W_I_PTiny_Dragons-ABtest/ABTEST", "", "width=1900,height=830");
