@@ -1,10 +1,7 @@
-* {
-  box-sizing: border-box;
-}
+
 body{
-	width: 99%;
 	background-color: #efefef;
-	position:absolute;
+	position: auto;
 }
 .button {
   background-color: white; 
