@@ -3,7 +3,7 @@
 }
 body{
 	float: left;
-	width: 100%;
+	width: 95%;
 }
 .button {
   background-color: #ffffff; 
@@ -50,6 +50,6 @@ body{
 }
 div.content{
 	padding: 2px 16px;
-	height: 100px;
+	height: 60px;
 }
 
