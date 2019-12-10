@@ -3,7 +3,7 @@
 }
 body{
 	float: left;
-	width: 99%;
+	width: 100%;
 	margin: 0;
 }
 .button {
@@ -17,9 +17,9 @@ body{
   font-size: 12px;
   font-weight: bold;
   outline-color: #787878;
-  width: 19%;
+  width: 19.5%;
   display: inline-block;
-  height:50px;
+  height:49px;
   border-color: #333333;
 }
 
