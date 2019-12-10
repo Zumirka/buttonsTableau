@@ -4,10 +4,11 @@
 body{
 	float: left;
 	width: 100%;
-	margin: 0;
+	background-color: #efefef;
+	position:relative;
 }
 .button {
-  background-color: ##efefef; 
+  background-color: white; 
   color: #333333;
   border: 2px solid black;
   padding: 15px 32px;
@@ -16,11 +17,11 @@ body{
   display: inline-block;
   font-size: 12px;
   font-weight: bold;
-  outline-color: #787878;
+  outline-color: #ABABAB;
   width: 19.5%;
   display: inline-block;
   height:49px;
-  border-color: #333333;
+  border-color: #ABABAB;
 }
 
 .button span {
@@ -38,9 +39,9 @@ body{
   transition: 0.5s;
 }
 .button:hover {
-	background-color: #333333;
-	border-color: #333333;
-	color: #ffffff;
+	background-color: white;
+	border-color: #ABABAB;
+	color: #333333;
 }
 .button:hover span {
   padding-right: 25px;
@@ -53,4 +54,8 @@ div.content{
 	padding: 2px 16px;
 	height: 50px;
 }
+
+#ABABAB
+white 
+#efefef
 
