@@ -12,38 +12,38 @@
 	<body>
 	<div class="container">
 	  <div class="btn-group btn-group-justified">
-	    <a href="https://tableau.artifexmundi.com/#/views/W_I_PTiny_Dragons-ABtest/ABTEST" target="_self" class="btn button"><span>AB Test</span></a>
-		<a href="https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Engagement/ENGAGEMENT" target="_self" class="btn button"><span>Engagement</span></a>
-		<a href="https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Masterdash/MASTERDASHV2" target="_self" class="btn button"><span>Masterdash</span></a>
-		<a href="https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Sales/SALES" target="_self" class="btn button"><span>Sales</span></a>
-		<a href="https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Retention/RETENTION" target="_self" class="btn button"><span>Retention</span></a>
+	    <a onclick="abTest()" class="btn button"><span>AB Test</span></a>
+		<a onclick="engagement()" class="btn button"><span>Engagement</span></a>
+		<a onclick="masterdash()" class="btn button"><span>Masterdash</span></a>
+		<a onclick="sales()" class="btn button"><span>Sales</span></a>
+		<a onclick="retention()" class="btn button"><span>Retention</span></a>
 	  </div>
 	</div>
 	
 	
 		<script>
 		function abTest() {
-		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/W_I_PTiny_Dragons-ABtest/ABTEST", "_parent");
+		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/W_I_PTiny_Dragons-ABtest/ABTEST", "_self");
 		}
 		</script>
 		<script>
 		function engagement() {
-		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Engagement/ENGAGEMENT","_top");
+		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Engagement/ENGAGEMENT","_self");
 		}
 		</script>
 		<script>
 		function masterdash() {
-		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Masterdash/MASTERDASHV2", "_parent");
+		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Masterdash/MASTERDASHV2", "_self");
 		}
 		</script>
 		<script>
 		function sales() {
-		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Sales/SALES", "_parent");
+		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Sales/SALES", "_self");
 		}
 		</script>
 		<script>
 		function retention() {
-		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Retention/RETENTION","_parent");
+		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Retention/RETENTION","_self");
 		}
 		</script>
 	</body>
