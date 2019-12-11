@@ -1,4 +1,4 @@
-<html>
+html>
 	<head>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -12,7 +12,7 @@
 	<body>
 	<div class="container">
 	  <div class="btn-group btn-group-justified">
-	    <a  target="_self" href="https://tableau.artifexmundi.com/#/views/W_I_PTiny_Dragons-ABtest/ABTEST" class="btn button"><span>AB Test</span></a>
+	    <a onclick="abTest()" class="btn button"><span>AB Test</span></a>
 		<a onclick="engagement()" class="btn button"><span>Engagement</span></a>
 		<a onclick="masterdash()" class="btn button"><span>Masterdash</span></a>
 		<a onclick="sales()" class="btn button"><span>Sales</span></a>
@@ -23,27 +23,27 @@
 	
 		<script>
 		function abTest() {
-		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/W_I_PTiny_Dragons-ABtest/ABTEST", "_self");
+		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/W_I_PTiny_Dragons-ABtest/ABTEST", "", "");
 		}
 		</script>
 		<script>
 		function engagement() {
-		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Engagement/ENGAGEMENT","_self");
+		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Engagement/ENGAGEMENT", "", "");
 		}
 		</script>
 		<script>
 		function masterdash() {
-		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Masterdash/MASTERDASHV2", "_self");
+		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Masterdash/MASTERDASHV2", "", "");
 		}
 		</script>
 		<script>
 		function sales() {
-		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Sales/SALES", "_self");
+		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Sales/SALES", "", "");
 		}
 		</script>
 		<script>
 		function retention() {
-		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Retention/RETENTION","_self");
+		var myWindow = window.open("https://tableau.artifexmundi.com/#/views/Tiny_Dragons-Retention/RETENTION", "", "");
 		}
 		</script>
 	</body>
